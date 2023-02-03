@@ -1,0 +1,51 @@
+#mi-header{
+    background-color: rgb(85, 3, 3);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#mi-main{
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#mi-nav{
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+h1  {
+    color:rgb(255, 255, 255);
+    text-align: left;
+    font-size: 20pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #0a0a0a;
+    border-radius: 10px;
+    background-color: rgb(196, 196, 196);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+    background-color: rgb(160, 160, 160);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgb(133, 17, 17), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
