@@ -1,11 +1,42 @@
-#mi-header{
-    background-color: rgb(85, 3, 3);
+#mi-header {
+    background-color: #252525;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
-}
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .search-container input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  .search-container button[type="submit"] {
+    width: 20%;
+    padding: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
 
+
+  .logo {
+    background-image: url(logo.png);
+  }
+  
+  
 #mi-main{
     background-color: rgb(24, 24, 24);
     display: flex;
@@ -47,5 +78,40 @@ h1  {
 }
 
 .styled:active {
-    box-shadow: inset -2px -2px 3px rgb(133, 17, 17), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: inset -2px -2px 3px rgb(255, 255, 255), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
+
+.thumbnail {
+    width: 435px;
+    height: 435px;
+    background-color: #f2f2f2;
+    display: inline-block;
+    margin: 10px;
+  }
+
+  #menu-hamburguesa {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    width: 100px;
+    height: 100%;
+    padding: 20px 0;
+  }
+  
+  #menu-hamburguesa a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  #menu-hamburguesa p {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+
